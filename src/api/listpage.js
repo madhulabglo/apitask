@@ -19,6 +19,7 @@ const ListPage = () => {
 
     const handleClick = (id) => {
         navigate(`/${id}`)
+        console.log( navigate(`/${id}`))
     }
 
     const handleNextBtn = () => {
