@@ -1,0 +1,23 @@
+body{
+    background-color:burlywood;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: aqua;
+}
+.column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+}
+.row {
+    display:block;
+    width: 500px;
+}
+.image {
+    border-radius: 50%;
+    cursor: pointer;
+}
